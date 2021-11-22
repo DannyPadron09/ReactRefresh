@@ -5,7 +5,7 @@ import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
 
-    useState();
+    useState(props.title);
 
     let title = props.title;
 
